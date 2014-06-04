@@ -29,6 +29,6 @@ for page in rep_cursor.pages():
 		time.sleep(5)
 	except BaseException, e:
 		print 'failed: ', str(e)
-		time.sleep(10)
+		time.sleep(10) 
 print 'done pulling'
 print 'pulled ' +str(total_received) + ' followers'
